@@ -84,6 +84,7 @@ p {
 
 .l-heading {
 	font-size: 40px;
+	line-height: 1.2;
 }
 
 /* padding */
@@ -108,7 +109,7 @@ p {
 	color: #fff;
 }
 
-#navbar h1 {
+#navbar .logo {
 	float: left;
 	padding-top: 20px;
 }
@@ -157,9 +158,9 @@ p {
 	line-height: 1.7em;
 }
 
-/* Homw Info  */
+/* Hom Info  */
 #home-info {
-	height: 400px;
+	height: 450px;
 }
 
 #home-info .info-img {
@@ -185,7 +186,7 @@ p {
 /* features */
 .box {
 	float: left;
-	width: 33.3%;
+	width: 33.33%;
 	padding: 50px;
 	text-align: center;
 }
@@ -276,3 +277,8 @@ p {
 	color: #fff;
 	padding: 20px;
 }
+
+@media (min-width: 1001px) {
+	#showcase {
+		width: 100%;
+	}
